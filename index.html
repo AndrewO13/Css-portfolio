@@ -9,7 +9,7 @@
     <link href="https://cdn.prod.website-files.com/5c58d24c0c3ff625822bee4b/css/seyit.webflow.3ee650ec9.css" rel="stylesheet" type="text/css"/> <!-- Webflow CSS -->
     
     <!-- Favicon links -->
-    <link href="C:\Users\agwan\Downloads\das.png" rel="shortcut icon" type="image/x-icon"/>
+    <link href="\das.png" rel="shortcut icon" type="image/x-icon"/>
     
     <!-- Dark Mode Toggle Button -->
     <div class="toggle-container">
@@ -32,8 +32,8 @@
                     <img src="https://cdn.prod.website-files.com/5c58d24c0c3ff625822bee4b/6265e3642fe049989c180c39_22-closeBtn.svg" loading="lazy" data-w-id="e30fc721-3b58-d17e-eeb2-4554dfd40edc" alt="Close button" class="_22-closepreviewbtn"/>
                     <div data-w-id="e30fc721-3b58-d17e-eeb2-4554dfd40edd" class="previewframe w-embed">
                       <!-- Video element for preview -->
-                      <video class="video" style="object-fit: contain; overflow:hidden; max-height: 81vh; max-width:80vw" preload="preload" loop="loop" muted="muted" playsinline="playsinline" video poster="Young M.E.jpg">
-                        <source src="" type="video/mp4">
+                      <video class="video" style="object-fit: contain; overflow:hidden; max-height: 81vh; max-width:80vw" preload="preload" loop="loop" muted="muted" playsinline="playsinline" video poster="\Young M.E.jpg">
+                        <source src="C:\Users\agwan\Desktop\school code\webb programming\portfolio site\SM-A145P_202412021936034" type="video/mp4">
                       </video>
                     </div>
                     <div data-w-id="e30fc721-3b58-d17e-eeb2-4554dfd40ede" class="popupbg"></div>
@@ -95,18 +95,6 @@
                   <div data-w-id="e30fc721-3b58-d17e-eeb2-4554dfd40edf" class="_22-navbuttonblock">
                     <div class="_22-navbutton">Results 1:1</div>
                     <div class="_22-navbutttonyear">Table</div>
-                  </div>
-                </div>
-                <!-- Collection Item 5 -->
-                <div role="listitem" class="collection-item-4 w-dyn-item">
-                  <div data-w-id="e30fc721-3b58-d17e-eeb2-4554dfd40edb" class="_22-videopreviewwrapper w-container">
-                    <!-- Close button for video preview -->
-                    <img src="https://cdn.prod.website-files.com/5c58d24c0c3ff625822bee4b/6265e3642fe049989c180c39_22-closeBtn.svg" loading="lazy" data-w-id="e30fc721-3b58-d17e-eeb2-4554dfd40edc" alt="Close button" class="_22-closepreviewbtn"/>
-                    <div data-w-id="e30fc721-3b58-d17e-eeb2-4554dfd40edd" class="previewframe w-embed">
-                      <!-- Video element for preview with a poster image from screenshots -->
-                      <video class="video" style="object-fit: contain; overflow:hidden; max-height: 81vh; max-width:80vw" preload="preload" loop="loop" muted="muted" playsinline="playsinline" video poster="\results.png">
-                      </video>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -239,29 +227,6 @@
           localStorage.setItem('darkMode', 'disabled');
           toggleButton.textContent = '🌙';
         }
-      });
-    </script>
-    <!-- jQuery to handle the hover behavior -->
-    <script>
-      $(document).ready(function() {
-        // When hovering over the button, show the ordered list; hide it when the mouse leaves.
-        $("#hoverListBtn").hover(
-          function() {
-            $("#hoverOrderedList").fadeIn();
-          },
-          function() {
-            $("#hoverOrderedList").fadeOut();
-          }
-        );
-        // Optionally, if the user hovers over the ordered list itself, keep it visible.
-        $("#hoverOrderedList").hover(
-          function() {
-            $(this).stop(true, true).fadeIn();
-          },
-          function() {
-            $(this).fadeOut();
-          }
-        );
       });
     </script>
   </body>
